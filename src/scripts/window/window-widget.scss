@@ -1,0 +1,25 @@
+.widget-wrapper {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .body-switch-button {
+        background-color: rgba(0, 0, 255, 0.283);
+        border: none;
+        outline: none;
+        padding: 15px 20px;
+        color: black;
+
+        &:hover {
+            background-color: violet;
+            color: white
+        }
+
+        &:active {
+            background-color: red;
+            color: white;
+        }
+    }
+}
