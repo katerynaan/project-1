@@ -1,4 +1,5 @@
 
+import Test from "../test/test";
 import "./window-widget.scss";
 const root = document.getElementById("root") as HTMLDivElement;
 interface WindowWidget {
@@ -41,6 +42,7 @@ WindowWidget.prototype.renderButton = (widget: HTMLDivElement) => {
 export function Widget(): () => void {
     const widget = new WindowWidget();
     const widgetElement = widget.renderWidget(root);
+    new Test(widgetElement);
     widget.renderButton(widgetElement);
     return
 }
