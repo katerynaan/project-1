@@ -8,7 +8,7 @@ export default class Test {
         const div = document.createElement("div");
         div.className = "test-wrapper";
         div.innerHTML = `
-        <h1>Hello world from Test Component!</h1>
+        <h1>Hello world from Test Component in a Feature branch for Merge!</h1>
         `
         this.root.append(div);
     }
