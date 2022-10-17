@@ -30,7 +30,7 @@ WindowWidget.prototype.renderButton = (widget: HTMLDivElement) => {
             widget.style.backgroundColor = "rgba(255,101,80,0.2)";
             theme = "dark"
         } else {
-            widget.style.backgroundColor = "rgb(255,101,80)";
+            widget.style.backgroundColor = "rgb(131, 161, 163)";
             theme = "light"
         }
     }
